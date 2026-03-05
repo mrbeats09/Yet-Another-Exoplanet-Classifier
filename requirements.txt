@@ -1,0 +1,8 @@
+# TESS Exoplanet Data Acquisition and Processing Pipeline
+# Version-pinned dependencies for reproducibility
+# Uses requests library for reliable HTTPS to NASA Exoplanet Archive
+
+numpy==1.26.4
+pandas==2.2.0
+tenacity==8.2.3
+requests==2.31.0
