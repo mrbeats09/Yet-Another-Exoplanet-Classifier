@@ -11,7 +11,7 @@ import requests
 import io
 
 # Optional magnitude filter to ensure 2-minute cadence data availability
-APPLY_MAG_FILTER = True
+APPLY_MAG_FILTER = False 
 
 def create_tess_csv():
     # The direct CSV export link for the TESS Objects of Interest catalog
