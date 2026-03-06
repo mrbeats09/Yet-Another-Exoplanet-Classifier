@@ -2,3 +2,6 @@
 __pycache__ 
 failed_targets.log
 sparse_targets.log
+tpf_temp 
+tess_training_data.csv 
+.DS_Store 
