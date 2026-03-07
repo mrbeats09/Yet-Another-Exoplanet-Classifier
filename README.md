@@ -69,9 +69,9 @@ Training uses focal loss (γ=2.0, label smoothing=0.1), Adam optimiser, linear L
 | B — Flux + Centroid | (N, 1000, 3) | 0.7287 ± 0.0216 |
 | C — Centroid Only | (N, 1000, 2) | 0.6151 ± 0.0274 |
 
-Wilcoxon test (A vs B): W=6.0, p=0.8125 — not significant. Adding centroid channels produces no meaningful improvement over flux alone.
+Wilcoxon test (A vs B): W=6.0, p=0.8125 | Adding centroid channels produces no meaningful improvement over flux alone.
 
-Wilcoxon test (A vs C): W=0.0, p=0.0625 — narrowly below the power ceiling of the test at n=5 (minimum achievable p=0.0625). Model A outperformed Model C in all five folds.
+Wilcoxon test (A vs C): W=0.0, p=0.0625 | Which is narrowly below the power ceiling of the test at n=5 (minimum achievable p=0.0625). Model A outperformed Model C in all five folds.
 
 ---
 
